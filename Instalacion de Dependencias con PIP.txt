@@ -1,0 +1,18 @@
+PIP: Package Installer for python
+Permite instalar módulos que no vienen dentro de python
+Por ejemplo Requests, BeautifulSoup4, Pandas, Numpy y Pytest.
+
+Mostrar los módulos instalados
+    pip freeze
+
+Installar Pandas
+    pip install Pandas
+
+Generar archivo de dependencias para el proyecto: 
+    pip freeze > requirements.txt
+
+Instalar dependencias de un archivo de dependencias
+    pip install -r requirements.txt
+
+Inicializar VS Code
+    code .

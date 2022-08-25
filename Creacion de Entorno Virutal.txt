@@ -1,0 +1,21 @@
+Creación de un entorno virtual
+
+py -m venv venv
+Donde:
+    py: comando para inicializar python en Windows
+    -m: indica que se modificará el comportamiento del comando anterior
+    venv: indica que se inicializará un entorno virtual
+    venv: indica el nombre del entorno generado.
+
+Activar el entorno virtual
+
+Linux y MAC
+    source venv/bin/activate
+Windows
+    .\venv\Scripts\activate
+
+Salir de entonrno virtual  
+    deactivate
+
+Alias en Windows
+    alias avenv= .\venv\Scripts\activate
