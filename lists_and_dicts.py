@@ -19,9 +19,13 @@ def run():
         "floating_nums" : [1.1,4.5,6.43]
     }
 
+    print("Imprimiendo super diccionario")
     for key, value in super_dict.items():
         print(key,"-",value)
 
+    print("Imprimiendo super lista")
+    for key in super_list:
+        print(key)
 
 
 if __name__ == '__main__':
