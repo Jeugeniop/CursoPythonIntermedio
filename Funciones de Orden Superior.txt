@@ -1,0 +1,16 @@
+Funciones de orden superior: Funciones que reciben como parámetro otra función
+
+Funciones de orden superior importantes en Python:
+
+- Filter: 
+    + filter(function, iterable)
+    + Regresa un iterador para aquellos elementos del iterable donde function(item) es true
+
+- Map:
+    + map(function, iterable)
+    + Crea un iterador que procesa la función para cada elemento del iterable
+
+- Reduce
+    + Tiene que se importado del módulo functools (from functools import reduce)
+    + Recibe dos parámetros, siendo a lista[i] y el b lista[i+1], con cada iteracion el resultado 
+    de la iteración anterior pasa a ser el elemento a
