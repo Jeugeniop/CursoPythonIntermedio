@@ -1,0 +1,13 @@
+Modos de apertura de archivo:
+
+- R: Lectura
+- W: Escritura (sobreescribir)
+- A: Escritura (agregar al final)
+
+with open("./ruta/del/archivo.txt","r") as f:
+
+With: manejador contextual, controla el flujo del archivo de modo que si se 
+cierra el programa o finaliza abrurtamente, el archivo no se rompe
+
+As: le damos un nombre a nuestro archivo para trabajar con el dentro del código
+
