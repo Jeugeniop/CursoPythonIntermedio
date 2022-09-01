@@ -1,0 +1,32 @@
+Errores
+
+- SyntaxError
+- Exception
+    + KeyboardInterrupt: cuando presionamos Ctrl+C, interrumpimos el flujo del programa.
+    + KeyError: Intentamos acceder a una llave inexistente en un diccionario
+    + IndexError: intentamos acceder a un índice inexistente en una lista
+    + FileNotFoundError: Intentamos acceder a un archivo que no existe
+    + ZeroDivisionError: Intentamos dividir entre 0
+    + ImportError: Intentamos importar un módulo que tiene un error.
+
+Elevar un error
+
+-Traceback: 
+    + Mensaje de error que arroja python cuando se presenta un error.
+    + Se debe leer de la última línea a la primera.
+
+- Debugging
+
+
+Try:
+    código
+Except TipoEx
+    Acciones a tomar si hay error
+
+raise: permite elevar una excepción
+finally: realizar una acción independientemente de que haya o no error.
+
+- Assert Statements: afirmaciones en python
+
+    + Código -> assert statement ? true: código: error
+    
