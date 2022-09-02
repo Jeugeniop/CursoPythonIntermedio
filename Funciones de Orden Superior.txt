@@ -6,6 +6,7 @@ Funciones de orden superior importantes en Python:
     + filter(function, iterable)
     + Regresa un iterador para aquellos elementos del iterable donde function(item) es true
 
+
 - Map:
     + map(function, iterable)
     + Crea un iterador que procesa la función para cada elemento del iterable
